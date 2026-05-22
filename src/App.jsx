@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { LayoutDashboard, CreditCard, Wallet, BarChart3, Target, Calculator, Settings, Menu, X, Bell, PiggyBank } from 'lucide-react'
-import { LayoutDashboard, CreditCard, Wallet, BarChart3, Target, Calculator, Settings, Menu, X, Bell } from 'lucide-react'
 import Dashboard from './components/Dashboard.jsx'
 import CreditCardTracker from './components/CreditCardTracker.jsx'
 import BudgetPlanner from './components/BudgetPlanner.jsx'
