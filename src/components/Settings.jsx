@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Save, Download, Upload, Trash2, Sun, Moon } from 'lucide-react'
-import Savings from './components/Savings.jsx'
 import { exportJSON, defaultData } from '../data.js'
 
 export default function Settings({ data, setData }) {
