@@ -8,6 +8,7 @@ import Analytics from './components/Analytics.jsx'
 import Goals from './components/Goals.jsx'
 import Calculators from './components/Calculators.jsx'
 import SettingsPage from './components/Settings.jsx'
+import Savings from './components/Savings.jsx'
 import { loadData, saveData, getDaysUntil } from './data.js'
 
 const NAV = [
@@ -19,6 +20,7 @@ const NAV = [
   { id: 'goals', label: 'Goals', icon: Target },
   { id: 'calculators', label: 'Calculators', icon: Calculator },
   { id: 'settings', label: 'Settings', icon: Settings },
+  { id: 'savings', label: 'Savings', icon: PiggyBank },
 ]
 
 const BOTTOM_NAV = [
@@ -57,6 +59,7 @@ export default function App() {
       case 'goals': return <Goals {...props} />
       case 'calculators': return <Calculators {...props} />
       case 'settings': return <SettingsPage {...props} />
+      case 'savings': return <Savings {...props} />
       default: return <Dashboard {...props} />
     }
   }
